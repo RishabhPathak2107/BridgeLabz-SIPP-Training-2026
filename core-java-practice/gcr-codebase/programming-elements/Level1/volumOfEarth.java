@@ -1,0 +1,10 @@
+class volumeOfEarth {
+	public static void main(String[] args) {
+		int radiusInKM = 6378;
+		double radiusInMiles = 6378 * 1.6;
+		double pi = 3.14;
+		double volumeInKM = (4/3) * pi * Math.pow(radiusInKM,3);
+		double volumeInMiles = (4/3) * pi * Math.pow(radiusInMiles,3);
+		System.out.println("The volume of Earth in cubic kilometers is " + volumeInKM + " and cubic miles is " + volumeInMiles);
+	}
+}
